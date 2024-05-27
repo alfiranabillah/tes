@@ -5,11 +5,11 @@ const ctp = document.getElementById("pieChart");
 new Chart(ctx, {
   type: "bar",
   data: {
-    labels: ["XL", "XXL"],
+    labels: ["Jan", "Feb", "Mar", "Apr"],
     datasets: [
       {
         label: 'quantity',
-        data: [552, 28],
+        data: [52, 41, 44, 69],
         borderWidth: 1,
       },
     ],
